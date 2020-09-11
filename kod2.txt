@@ -1,0 +1,25 @@
+gra = [["*","*","*"], ["*","*","*"], ["*","*","*"]]
+
+gracz = "O"
+while(True):
+
+    for i in gra:
+        for j in i:
+            print(j, end = " ")
+
+        print()
+
+    wsp = input(f"Gracz '{gracz}' podaj wsp: ") # "21"
+    x =  int(wsp[0])
+    y =  int(wsp[1])
+    gra[x][y] = gracz
+
+    #if sprawdzajacy wygrana
+    if (gra[0][0] == gra[1][1] and gra[0][0] == gra[2][2] and gra[0][0] != "*"):
+        print(f"Wygrał zawodnik {gracz}")
+        break
+
+    if(gracz == "O"):
+        gracz = "X"
+    else:
+        gracz = "O"

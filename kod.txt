@@ -1,0 +1,41 @@
+a = int(input("Podaj liczbe 1"))
+b = int(input("Podaj liczbe 2"))
+c = int(input("Podaj liczbe 3"))
+d = int(input("Podaj liczbe 4"))
+e = int(input("Podaj liczbe 5"))
+f = int(input("Podaj liczbe 6"))
+
+min = a
+max = a
+
+if(max < b):
+    max = b
+
+if(min > b):
+    min = b
+
+if (max < c):
+    max = c
+
+if (min > c):
+    min = c
+
+if (max < d):
+    max = d
+
+if (min > d):
+    min = d
+
+if (max < e):
+    max = e
+
+if (min > e):
+    min = e
+
+if (max < f):
+    max = f
+
+if (min > f):
+    min = f
+
+print(f"Min to: {min}, Max to: {max}")
