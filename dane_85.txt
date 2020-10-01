@@ -1,0 +1,6 @@
+ Imie: oli Nazwisko: ola Grupa: 6
+ Imie: zenek Nazwisko: was Grupa: 34
+ Imie: iga Nazwisko: zebra Grupa: 66
+ Imie: olek Nazwisko: kij Grupa: 5
+ Imie: olek Nazwisko: wesz Grupa: 6
+ Imie: waldek Nazwisko: nowak Grupa: 9
