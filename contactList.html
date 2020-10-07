@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1> Ksiazka telefoniczna</h1>
+
+    <p>
+    <a href ="{% url 'contactNew' %}"> Dodaj nowy kontakt  </a>
+    </p>
+
+{% for contact in contacts %}
+
+<div>
+    <p>
+        Imię: {{contact.firstName}}
+    </p>
+
+
+    <p>
+        Nazwisko: {{contact.lastName}}
+    </p>
+
+    <p>
+        Email: {{contact.email}}
+    </p>
+
+    <p>
+        Telefon: {{contact.phone}}
+    </p>
+
+    </div>
+
+<hr/>
+
+{% endfor%}
+
+
+<footer>
+    Projekt & copy MICHALA
+  </footer>
+
+</body>
+</html>
