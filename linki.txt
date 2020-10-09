@@ -1,0 +1,7 @@
+https://dev.mysql.com/downloads/windows/installer/8.0.html
+
+https://support.microsoft.com/pl-pl/help/2977003/the-latest-supported-visual-c-downloads
+
+https://python101.readthedocs.io/pl/latest/bazy/sql/index.html#modyfikacja-i-usuwanie-danych
+
+
